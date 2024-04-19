@@ -1,6 +1,6 @@
-cost core = require('@actions/core');
-cost github = require('@actions/github');
-cost exec = require('@actions/exec');
+const core = require('@actions/core');
+const github = require('@actions/github');
+const exec = require('@actions/exec');
 
 function run() {
   core.notice('Hello from my custom JavaScript Action!')
